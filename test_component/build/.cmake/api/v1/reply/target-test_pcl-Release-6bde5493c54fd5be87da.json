@@ -1,0 +1,343 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test_pcl"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories",
+			"include",
+			"find_external_library",
+			"find_package",
+			"target_link_libraries",
+			"add_definitions",
+			"find_qhull",
+			"set_property"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/lib/cmake/vtk-6.2/UseVTK.cmake",
+			"/usr/share/pcl-1.11/PCLConfig.cmake",
+			"/usr/share/pcl-1.11/Modules/FindQhull.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 546,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 546,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 318,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 163,
+				"parent" : 12
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 88,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O2 -O3 -DNDEBUG   -march=native -msse4.2 -mfpmath=sse -fPIC -std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "DISABLE_LIBUSB_1_0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "DISABLE_PCAP"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "DISABLE_PNG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "qh_QHpointer"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/vtk-6.2"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/freetype2"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/jsoncpp"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/usr/include/pcl-1.11"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/usr/include/ni"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/usr/include/openni2"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/kinetic/include/opencv-3.3.1-dev"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "test_pcl::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O2 -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/kinetic/lib/x86_64-linux-gnu /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1 /usr/lib/libpcl_apps.so /usr/lib/libpcl_outofcore.so /usr/lib/libpcl_people.so -lboost_system -lboost_filesystem -lboost_date_time -lboost_iostreams -lboost_serialization -lboost_regex -lqhull -lOpenNI -lOpenNI2 /usr/lib/x86_64-linux-gnu/libvtkChartsCore-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-6.2.so.6.2.0 -lfreetype -lz -ljpeg -lpng -ltiff -ljsoncpp /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkViewsCore-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkRenderingQt-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkGUISupportQt-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libflann_cpp.so /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1 /usr/lib/x86_64-linux-gnu/libvtkIOPLY-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL-6.2.so.6.2.0 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1 /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1 /usr/lib/libpcl_surface.so /usr/lib/libpcl_keypoints.so /usr/lib/libpcl_tracking.so /usr/lib/libpcl_recognition.so /usr/lib/libpcl_registration.so /usr/lib/libpcl_stereo.so /usr/lib/libpcl_segmentation.so /usr/lib/libpcl_features.so /usr/lib/libpcl_filters.so /usr/lib/libpcl_sample_consensus.so /usr/lib/libpcl_ml.so /usr/lib/libpcl_visualization.so /usr/lib/libpcl_search.so /usr/lib/libpcl_kdtree.so /usr/lib/libpcl_io.so /usr/lib/libpcl_octree.so /usr/lib/libpcl_common.so /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkImagingSources-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkImagingColor-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersTexture-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkIOImage-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkIOCore-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkmetaio-6.2.so.6.2.0 -lz -lGLU -lSM -lICE -lX11 -lXext -lXt /usr/lib/x86_64-linux-gnu/libvtkRenderingLabel-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonColor-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkImagingCore-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkalglib-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0 /usr/lib/x86_64-linux-gnu/libvtksys-6.2.so.6.2.0 -ldl /usr/lib/x86_64-linux-gnu/libvtkftgl-6.2.so.6.2.0 -lfreetype -lGL /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_pcl",
+	"nameOnDisk" : "test_pcl",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "pcl_io_show.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "CAPE.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "PlaneSeg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "CylinderSeg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Histogram.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

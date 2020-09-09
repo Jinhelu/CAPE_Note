@@ -1,0 +1,3 @@
+/home/ljh/Plane_extraction/MyCAPE/test_component/build/CMakeFiles/rebuild_cache.dir
+/home/ljh/Plane_extraction/MyCAPE/test_component/build/CMakeFiles/edit_cache.dir
+/home/ljh/Plane_extraction/MyCAPE/test_component/build/CMakeFiles/test_pcl.dir
