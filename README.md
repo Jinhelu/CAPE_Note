@@ -1,2 +1,5 @@
 # My Feature Recognition
-this is a project for 3D plane fitting using lidar.
+## test_component
+this is a project for 3D plane and cylinder fitting using lidar from CAPE.
+input:.pcd files 
+output:features
